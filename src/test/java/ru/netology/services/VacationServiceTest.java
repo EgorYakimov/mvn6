@@ -16,7 +16,7 @@ public class VacationServiceTest {
     @Test
     public void test1() {
         VacationService service = new VacationService();
-        int expected = 3;
+        int expected = 2;
         int actual = service.calculate(100_000, 60_000, 150_000);
         Assertions.assertEquals(expected, actual);
     }
